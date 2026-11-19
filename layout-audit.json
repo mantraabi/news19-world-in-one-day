@@ -1,0 +1,1568 @@
+{
+  "canvas": [
+    1024,
+    1024
+  ],
+  "stories": 32,
+  "scale": 2,
+  "fonts": {
+    "serif": "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf",
+    "sans": "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
+    "sansb": "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"
+  },
+  "boxes": [
+    {
+      "name": "masthead.title",
+      "text": "THE WORLD TODAY",
+      "rect": [
+        30,
+        43.0,
+        528.32,
+        99.0
+      ],
+      "font_size": 50,
+      "face": "serif",
+      "cell": "masthead",
+      "cell_rect": [
+        30,
+        30,
+        994,
+        100
+      ]
+    },
+    {
+      "name": "masthead.date",
+      "text": "THURSDAY 19 NOVEMBER 2026",
+      "rect": [
+        747.69,
+        51.5,
+        994.0,
+        69.5
+      ],
+      "font_size": 16,
+      "face": "sansb",
+      "cell": "masthead",
+      "cell_rect": [
+        30,
+        30,
+        994,
+        100
+      ]
+    },
+    {
+      "name": "masthead.dek",
+      "text": "32 STORIES · SIX REGIONS · ONE PAGE",
+      "rect": [
+        698.55,
+        76.5,
+        994.0,
+        91.0
+      ],
+      "font_size": 12.5,
+      "face": "sans",
+      "cell": "masthead",
+      "cell_rect": [
+        30,
+        30,
+        994,
+        100
+      ]
+    },
+    {
+      "name": "lead.kicker",
+      "text": "ASIA-PACIFIC · APEC · SHENZHEN",
+      "rect": [
+        30,
+        112,
+        232.58,
+        124.0
+      ],
+      "font_size": 10,
+      "face": "sansb",
+      "cell": "lead",
+      "cell_rect": [
+        30,
+        112,
+        344,
+        400
+      ]
+    },
+    {
+      "name": "lead.head",
+      "text": "Trump meets Xi and Putin, then a first US–Russia–China session",
+      "rect": [
+        30,
+        129,
+        293.62,
+        263.0
+      ],
+      "font_size": 30,
+      "face": "serif",
+      "cell": "lead",
+      "cell_rect": [
+        30,
+        112,
+        344,
+        400
+      ],
+      "lines": [
+        "Trump meets Xi and",
+        "Putin, then a first",
+        "US–Russia–China",
+        "session"
+      ],
+      "truncated": false,
+      "requested_size": 30
+    },
+    {
+      "name": "lead.deck",
+      "text": "Trump told Xi that 'as long as the two of us are in charge' there would be no problem. Xi called the trilateral of 'groundbreaking significance'. Everything here happened, or was first reported, on Thursday 19 November 2026.",
+      "rect": [
+        30,
+        272.0,
+        334.75,
+        332.8
+      ],
+      "font_size": 12,
+      "face": "sans",
+      "cell": "lead",
+      "cell_rect": [
+        30,
+        112,
+        344,
+        400
+      ],
+      "lines": [
+        "Trump told Xi that 'as long as the two of us are in charge'",
+        "there would be no problem. Xi called the trilateral of",
+        "'groundbreaking significance'. Everything here happened,",
+        "or was first reported, on Thursday 19 November 2026."
+      ],
+      "truncated": false,
+      "requested_size": 12
+    },
+    {
+      "name": "lead.src",
+      "text": "AL JAZEERA · AP · REUTERS",
+      "rect": [
+        30,
+        386,
+        184.41,
+        396.5
+      ],
+      "font_size": 9,
+      "face": "sansb",
+      "cell": "lead",
+      "cell_rect": [
+        30,
+        112,
+        344,
+        400
+      ]
+    },
+    {
+      "name": "card.icj.kicker",
+      "text": "THE HAGUE · ICJ",
+      "rect": [
+        628,
+        116,
+        721.17,
+        127.5
+      ],
+      "font_size": 9.5,
+      "face": "sansb",
+      "cell": "card.icj",
+      "cell_rect": [
+        628,
+        112,
+        862,
+        250
+      ]
+    },
+    {
+      "name": "card.icj.head",
+      "text": "UN court finds Myanmar committed genocide against Rohingya",
+      "rect": [
+        628,
+        131,
+        840.96,
+        192.1
+      ],
+      "font_size": 18,
+      "face": "serif",
+      "cell": "card.icj",
+      "cell_rect": [
+        628,
+        112,
+        862,
+        250
+      ],
+      "lines": [
+        "UN court finds Myanmar",
+        "committed genocide against",
+        "Rohingya"
+      ],
+      "truncated": false,
+      "requested_size": 18
+    },
+    {
+      "name": "card.icj.deck",
+      "text": "The court's first genocide finding against a state; The Gambia filed in 2019.",
+      "rect": [
+        628,
+        195.1,
+        852.87,
+        219.3
+      ],
+      "font_size": 10.5,
+      "face": "sans",
+      "cell": "card.icj",
+      "cell_rect": [
+        628,
+        112,
+        862,
+        250
+      ],
+      "lines": [
+        "The court's first genocide finding against a state;",
+        "The Gambia filed in 2019."
+      ],
+      "truncated": false,
+      "requested_size": 10.5
+    },
+    {
+      "name": "card.icj.num",
+      "text": "9-6",
+      "rect": [
+        628,
+        221.5,
+        659.99,
+        248.5
+      ],
+      "font_size": 24,
+      "face": "serif",
+      "cell": "card.icj",
+      "cell_rect": [
+        628,
+        112,
+        862,
+        250
+      ]
+    },
+    {
+      "name": "card.ipo.kicker",
+      "text": "MARKETS · IPO",
+      "rect": [
+        628,
+        266,
+        711.78,
+        277.5
+      ],
+      "font_size": 9.5,
+      "face": "sansb",
+      "cell": "card.ipo",
+      "cell_rect": [
+        628,
+        262,
+        862,
+        400
+      ]
+    },
+    {
+      "name": "card.ipo.head",
+      "text": "Anthropic raises $81.3bn in the largest IPO on record",
+      "rect": [
+        628,
+        281,
+        839.7,
+        321.8
+      ],
+      "font_size": 18,
+      "face": "serif",
+      "cell": "card.ipo",
+      "cell_rect": [
+        628,
+        262,
+        862,
+        400
+      ],
+      "lines": [
+        "Anthropic raises $81.3bn in",
+        "the largest IPO on record"
+      ],
+      "truncated": false,
+      "requested_size": 18
+    },
+    {
+      "name": "card.ipo.deck",
+      "text": "980m shares at $83 valued the Claude maker near $1.5tn; trading was set to begin today.",
+      "rect": [
+        628,
+        324.8,
+        840.38,
+        349.0
+      ],
+      "font_size": 10.5,
+      "face": "sans",
+      "cell": "card.ipo",
+      "cell_rect": [
+        628,
+        262,
+        862,
+        400
+      ],
+      "lines": [
+        "980m shares at $83 valued the Claude maker",
+        "near $1.5tn; trading was set to begin today."
+      ],
+      "truncated": false,
+      "requested_size": 10.5
+    },
+    {
+      "name": "card.ipo.num",
+      "text": "$81.3BN",
+      "rect": [
+        628,
+        371.5,
+        715.34,
+        398.5
+      ],
+      "font_size": 24,
+      "face": "serif",
+      "cell": "card.ipo",
+      "cell_rect": [
+        628,
+        262,
+        862,
+        400
+      ]
+    },
+    {
+      "name": "band.bridge.kicker",
+      "text": "EUROPE · KERCH STRAIT",
+      "rect": [
+        130,
+        415,
+        269.28,
+        426.5
+      ],
+      "font_size": 9.5,
+      "face": "sansb",
+      "cell": "band.bridge",
+      "cell_rect": [
+        130,
+        412,
+        332,
+        560
+      ]
+    },
+    {
+      "name": "band.bridge.head",
+      "text": "Crimean Bridge struck again; road span collapses",
+      "rect": [
+        130,
+        429,
+        317.86,
+        493.7
+      ],
+      "font_size": 19,
+      "face": "serif",
+      "cell": "band.bridge",
+      "cell_rect": [
+        130,
+        412,
+        332,
+        560
+      ],
+      "lines": [
+        "Crimean Bridge struck",
+        "again; road span",
+        "collapses"
+      ],
+      "truncated": false,
+      "requested_size": 19
+    },
+    {
+      "name": "band.bridge.deck",
+      "text": "Video showed explosions before part of the crossing fell, the Russian-installed governor said.",
+      "rect": [
+        130,
+        497.7,
+        313.6,
+        534.6
+      ],
+      "font_size": 10.5,
+      "face": "sans",
+      "cell": "band.bridge",
+      "cell_rect": [
+        130,
+        412,
+        332,
+        560
+      ],
+      "lines": [
+        "Video showed explosions before part of",
+        "the crossing fell, the Russian-installed",
+        "governor said."
+      ],
+      "truncated": false,
+      "requested_size": 10.5
+    },
+    {
+      "name": "band.hormuz.kicker",
+      "text": "MIDDLE EAST · HORMUZ",
+      "rect": [
+        456,
+        415,
+        589.52,
+        426.5
+      ],
+      "font_size": 9.5,
+      "face": "sansb",
+      "cell": "band.hormuz",
+      "cell_rect": [
+        456,
+        412,
+        658,
+        560
+      ]
+    },
+    {
+      "name": "band.hormuz.head",
+      "text": "Tankers ablaze near Hormuz as Houthi missiles are intercepted",
+      "rect": [
+        456,
+        429,
+        645.24,
+        493.7
+      ],
+      "font_size": 19,
+      "face": "serif",
+      "cell": "band.hormuz",
+      "cell_rect": [
+        456,
+        412,
+        658,
+        560
+      ],
+      "lines": [
+        "Tankers ablaze near",
+        "Hormuz as Houthi",
+        "missiles are intercepted"
+      ],
+      "truncated": false,
+      "requested_size": 19
+    },
+    {
+      "name": "band.hormuz.deck",
+      "text": "Iran's army said three burned east of the strait; the Saudi-led coalition intercepted missiles aimed at Riyadh.",
+      "rect": [
+        456,
+        497.7,
+        644.11,
+        534.6
+      ],
+      "font_size": 10.5,
+      "face": "sans",
+      "cell": "band.hormuz",
+      "cell_rect": [
+        456,
+        412,
+        658,
+        560
+      ],
+      "lines": [
+        "Iran's army said three burned east of the",
+        "strait; the Saudi-led coalition intercepted",
+        "missiles aimed at Riyadh."
+      ],
+      "truncated": false,
+      "requested_size": 10.5
+    },
+    {
+      "name": "band.gta.kicker",
+      "text": "CULTURE · GAMING",
+      "rect": [
+        782,
+        415,
+        889.88,
+        426.5
+      ],
+      "font_size": 9.5,
+      "face": "sansb",
+      "cell": "band.gta",
+      "cell_rect": [
+        782,
+        412,
+        984,
+        560
+      ]
+    },
+    {
+      "name": "band.gta.head",
+      "text": "Grand Theft Auto VI launches after a 13-year wait",
+      "rect": [
+        782,
+        429,
+        976.35,
+        493.7
+      ],
+      "font_size": 19,
+      "face": "serif",
+      "cell": "band.gta",
+      "cell_rect": [
+        782,
+        412,
+        984,
+        560
+      ],
+      "lines": [
+        "Grand Theft Auto VI",
+        "launches after a 13-year",
+        "wait"
+      ],
+      "truncated": false,
+      "requested_size": 19
+    },
+    {
+      "name": "band.gta.deck",
+      "text": "Critics called it a masterpiece; events ran from Miami and Dublin to billboards in Tokyo and Sydney.",
+      "rect": [
+        782,
+        497.7,
+        973.36,
+        534.6
+      ],
+      "font_size": 10.5,
+      "face": "sans",
+      "cell": "band.gta",
+      "cell_rect": [
+        782,
+        412,
+        984,
+        560
+      ],
+      "lines": [
+        "Critics called it a masterpiece; events ran",
+        "from Miami and Dublin to billboards in",
+        "Tokyo and Sydney."
+      ],
+      "truncated": false,
+      "requested_size": 10.5
+    },
+    {
+      "name": "art.gta.vi",
+      "text": "VI",
+      "rect": [
+        746,
+        455.0,
+        767.11,
+        476.5
+      ],
+      "font_size": 19,
+      "face": "serif",
+      "cell": "art.gta",
+      "cell_rect": [
+        682,
+        414,
+        774,
+        506
+      ]
+    },
+    {
+      "name": "brief.header",
+      "text": "THE DAY IN BRIEF · SIXTEEN MORE STORIES",
+      "rect": [
+        30,
+        578,
+        296.21,
+        590.0
+      ],
+      "font_size": 10,
+      "face": "sansb",
+      "cell": "brief.header",
+      "cell_rect": [
+        30,
+        570,
+        994,
+        592
+      ]
+    },
+    {
+      "name": "tag",
+      "text": "ASIA · TRADE",
+      "rect": [
+        34,
+        608,
+        97.75,
+        618.0
+      ],
+      "font_size": 8.5,
+      "face": "sansb",
+      "cell": "brief.1",
+      "cell_rect": [
+        30,
+        604,
+        259,
+        676
+      ]
+    },
+    {
+      "name": "brief.1.head",
+      "text": "Philippines and Chile sign a free-trade agreement at APEC",
+      "rect": [
+        30,
+        621,
+        220.8,
+        652.7
+      ],
+      "font_size": 13.5,
+      "face": "sansb",
+      "cell": "brief.1",
+      "cell_rect": [
+        30,
+        604,
+        259,
+        676
+      ],
+      "lines": [
+        "Philippines and Chile sign a",
+        "free-trade agreement at APEC"
+      ],
+      "truncated": false,
+      "requested_size": 13.5
+    },
+    {
+      "name": "tag",
+      "text": "ASIA · KOREA",
+      "rect": [
+        34,
+        684,
+        99.16,
+        694.0
+      ],
+      "font_size": 8.5,
+      "face": "sansb",
+      "cell": "brief.2",
+      "cell_rect": [
+        30,
+        680,
+        259,
+        752
+      ]
+    },
+    {
+      "name": "brief.2.head",
+      "text": "IAEA says North Korea is expanding its uranium enrichment site",
+      "rect": [
+        30,
+        697,
+        250.55,
+        744.9
+      ],
+      "font_size": 13.5,
+      "face": "sansb",
+      "cell": "brief.2",
+      "cell_rect": [
+        30,
+        680,
+        259,
+        752
+      ],
+      "lines": [
+        "IAEA says North Korea is",
+        "expanding its uranium enrichment",
+        "site"
+      ],
+      "truncated": false,
+      "requested_size": 13.5
+    },
+    {
+      "name": "tag",
+      "text": "ASIA · CHIPS",
+      "rect": [
+        34,
+        760,
+        94.44,
+        770.0
+      ],
+      "font_size": 8.5,
+      "face": "sansb",
+      "cell": "brief.3",
+      "cell_rect": [
+        30,
+        756,
+        259,
+        828
+      ]
+    },
+    {
+      "name": "brief.3.head",
+      "text": "TSMC and Samsung suspend some chip shipments to Chinese customers",
+      "rect": [
+        30,
+        773,
+        258.82,
+        820.9
+      ],
+      "font_size": 13.5,
+      "face": "sansb",
+      "cell": "brief.3",
+      "cell_rect": [
+        30,
+        756,
+        259,
+        828
+      ],
+      "lines": [
+        "TSMC and Samsung suspend some",
+        "chip shipments to Chinese",
+        "customers"
+      ],
+      "truncated": false,
+      "requested_size": 13.5
+    },
+    {
+      "name": "tag",
+      "text": "ASIA · JAPAN",
+      "rect": [
+        34,
+        836,
+        97.28,
+        846.0
+      ],
+      "font_size": 8.5,
+      "face": "sansb",
+      "cell": "brief.4",
+      "cell_rect": [
+        30,
+        832,
+        259,
+        904
+      ]
+    },
+    {
+      "name": "brief.4.head",
+      "text": "Japan's new premier cuts a lonely figure as Putin returns",
+      "rect": [
+        30,
+        849,
+        248.55,
+        880.7
+      ],
+      "font_size": 13.5,
+      "face": "sansb",
+      "cell": "brief.4",
+      "cell_rect": [
+        30,
+        832,
+        259,
+        904
+      ],
+      "lines": [
+        "Japan's new premier cuts a lonely",
+        "figure as Putin returns"
+      ],
+      "truncated": false,
+      "requested_size": 13.5
+    },
+    {
+      "name": "tag",
+      "text": "EUROPE · UKRAINE",
+      "rect": [
+        277,
+        608,
+        368.19,
+        618.0
+      ],
+      "font_size": 8.5,
+      "face": "sansb",
+      "cell": "brief.5",
+      "cell_rect": [
+        273,
+        604,
+        502,
+        676
+      ]
+    },
+    {
+      "name": "brief.5.head",
+      "text": "Russian strike on Odesa kills four and injures at least 13",
+      "rect": [
+        273,
+        621,
+        490.57,
+        652.7
+      ],
+      "font_size": 13.5,
+      "face": "sansb",
+      "cell": "brief.5",
+      "cell_rect": [
+        273,
+        604,
+        502,
+        676
+      ],
+      "lines": [
+        "Russian strike on Odesa kills four",
+        "and injures at least 13"
+      ],
+      "truncated": false,
+      "requested_size": 13.5
+    },
+    {
+      "name": "tag",
+      "text": "EUROPE · ENERGY",
+      "rect": [
+        277,
+        684,
+        364.76,
+        694.0
+      ],
+      "font_size": 8.5,
+      "face": "sansb",
+      "cell": "brief.6",
+      "cell_rect": [
+        273,
+        680,
+        502,
+        752
+      ]
+    },
+    {
+      "name": "brief.6.head",
+      "text": "Ukraine says it hit two refineries; Zelensky hails its own weapons",
+      "rect": [
+        273,
+        697,
+        484.55,
+        728.7
+      ],
+      "font_size": 13.5,
+      "face": "sansb",
+      "cell": "brief.6",
+      "cell_rect": [
+        273,
+        680,
+        502,
+        752
+      ],
+      "lines": [
+        "Ukraine says it hit two refineries;",
+        "Zelensky hails its own weapons"
+      ],
+      "truncated": false,
+      "requested_size": 13.5
+    },
+    {
+      "name": "tag",
+      "text": "EUROPE · ARCTIC",
+      "rect": [
+        277,
+        760,
+        360.97,
+        770.0
+      ],
+      "font_size": 8.5,
+      "face": "sansb",
+      "cell": "brief.7",
+      "cell_rect": [
+        273,
+        756,
+        502,
+        828
+      ]
+    },
+    {
+      "name": "brief.7.head",
+      "text": "Denmark's parliament approves a security deal with Greenland and the US",
+      "rect": [
+        273,
+        773,
+        488.55,
+        820.9
+      ],
+      "font_size": 13.5,
+      "face": "sansb",
+      "cell": "brief.7",
+      "cell_rect": [
+        273,
+        756,
+        502,
+        828
+      ],
+      "lines": [
+        "Denmark's parliament approves a",
+        "security deal with Greenland and",
+        "the US"
+      ],
+      "truncated": false,
+      "requested_size": 13.5
+    },
+    {
+      "name": "tag",
+      "text": "EUROPE · ROYALS",
+      "rect": [
+        277,
+        836,
+        364.28,
+        846.0
+      ],
+      "font_size": 8.5,
+      "face": "sansb",
+      "cell": "brief.8",
+      "cell_rect": [
+        273,
+        832,
+        502,
+        904
+      ]
+    },
+    {
+      "name": "brief.8.head",
+      "text": "Catherine visits a Mumbai maternity hospital on the last day",
+      "rect": [
+        273,
+        849,
+        487.54,
+        880.7
+      ],
+      "font_size": 13.5,
+      "face": "sansb",
+      "cell": "brief.8",
+      "cell_rect": [
+        273,
+        832,
+        502,
+        904
+      ],
+      "lines": [
+        "Catherine visits a Mumbai",
+        "maternity hospital on the last day"
+      ],
+      "truncated": false,
+      "requested_size": 13.5
+    },
+    {
+      "name": "tag",
+      "text": "MIDDLE EAST · GAZA",
+      "rect": [
+        520,
+        608,
+        619.46,
+        618.0
+      ],
+      "font_size": 8.5,
+      "face": "sansb",
+      "cell": "brief.9",
+      "cell_rect": [
+        516,
+        604,
+        745,
+        676
+      ]
+    },
+    {
+      "name": "brief.9.head",
+      "text": "Israeli military completes a rare ground operation beyond the Yellow Line",
+      "rect": [
+        516,
+        621,
+        717.83,
+        668.9
+      ],
+      "font_size": 13.5,
+      "face": "sansb",
+      "cell": "brief.9",
+      "cell_rect": [
+        516,
+        604,
+        745,
+        676
+      ],
+      "lines": [
+        "Israeli military completes a rare",
+        "ground operation beyond the",
+        "Yellow Line"
+      ],
+      "truncated": false,
+      "requested_size": 13.5
+    },
+    {
+      "name": "tag",
+      "text": "MIDDLE EAST · IRAN",
+      "rect": [
+        520,
+        684,
+        616.15,
+        694.0
+      ],
+      "font_size": 8.5,
+      "face": "sansb",
+      "cell": "brief.10",
+      "cell_rect": [
+        516,
+        680,
+        745,
+        752
+      ]
+    },
+    {
+      "name": "brief.10.head",
+      "text": "Trump, in an interview, says Iran seeks chemical and biological arms",
+      "rect": [
+        516,
+        697,
+        724.07,
+        744.9
+      ],
+      "font_size": 13.5,
+      "face": "sansb",
+      "cell": "brief.10",
+      "cell_rect": [
+        516,
+        680,
+        745,
+        752
+      ],
+      "lines": [
+        "Trump, in an interview, says Iran",
+        "seeks chemical and biological",
+        "arms"
+      ],
+      "truncated": false,
+      "requested_size": 13.5
+    },
+    {
+      "name": "tag",
+      "text": "AFRICA · MIGRATION",
+      "rect": [
+        520,
+        760,
+        618.5,
+        770.0
+      ],
+      "font_size": 8.5,
+      "face": "sansb",
+      "cell": "brief.11",
+      "cell_rect": [
+        516,
+        756,
+        745,
+        828
+      ]
+    },
+    {
+      "name": "brief.11.head",
+      "text": "Dozens missing after a boat carrying about 100 migrants sinks off Senegal",
+      "rect": [
+        516,
+        773,
+        735.08,
+        820.9
+      ],
+      "font_size": 13.5,
+      "face": "sansb",
+      "cell": "brief.11",
+      "cell_rect": [
+        516,
+        756,
+        745,
+        828
+      ],
+      "lines": [
+        "Dozens missing after a boat",
+        "carrying about 100 migrants sinks",
+        "off Senegal"
+      ],
+      "truncated": false,
+      "requested_size": 13.5
+    },
+    {
+      "name": "tag",
+      "text": "AFRICA · HEALTH",
+      "rect": [
+        520,
+        836,
+        602.55,
+        846.0
+      ],
+      "font_size": 8.5,
+      "face": "sansb",
+      "cell": "brief.12",
+      "cell_rect": [
+        516,
+        832,
+        745,
+        904
+      ]
+    },
+    {
+      "name": "brief.12.head",
+      "text": "DR Congo's Ebola outbreak spreads as patients avoid hospitals",
+      "rect": [
+        516,
+        849,
+        744.09,
+        880.7
+      ],
+      "font_size": 13.5,
+      "face": "sansb",
+      "cell": "brief.12",
+      "cell_rect": [
+        516,
+        832,
+        745,
+        904
+      ],
+      "lines": [
+        "DR Congo's Ebola outbreak",
+        "spreads as patients avoid hospitals"
+      ],
+      "truncated": false,
+      "requested_size": 13.5
+    },
+    {
+      "name": "tag",
+      "text": "AFRICA · ECONOMY",
+      "rect": [
+        763,
+        608,
+        855.59,
+        618.0
+      ],
+      "font_size": 8.5,
+      "face": "sansb",
+      "cell": "brief.13",
+      "cell_rect": [
+        759,
+        604,
+        988,
+        676
+      ]
+    },
+    {
+      "name": "brief.13.head",
+      "text": "Egypt secures a $2.3bn IMF deal as its recovery gathers pace",
+      "rect": [
+        759,
+        621,
+        985.6,
+        652.7
+      ],
+      "font_size": 13.5,
+      "face": "sansb",
+      "cell": "brief.13",
+      "cell_rect": [
+        759,
+        604,
+        988,
+        676
+      ],
+      "lines": [
+        "Egypt secures a $2.3bn IMF deal as",
+        "its recovery gathers pace"
+      ],
+      "truncated": false,
+      "requested_size": 13.5
+    },
+    {
+      "name": "tag",
+      "text": "AMERICAS · HEALTH",
+      "rect": [
+        763,
+        684,
+        859.98,
+        694.0
+      ],
+      "font_size": 8.5,
+      "face": "sansb",
+      "cell": "brief.14",
+      "cell_rect": [
+        759,
+        680,
+        988,
+        752
+      ]
+    },
+    {
+      "name": "brief.14.head",
+      "text": "Unvaccinated Pennsylvania resident dies as US measles cases surge",
+      "rect": [
+        759,
+        697,
+        981.88,
+        744.9
+      ],
+      "font_size": 13.5,
+      "face": "sansb",
+      "cell": "brief.14",
+      "cell_rect": [
+        759,
+        680,
+        988,
+        752
+      ],
+      "lines": [
+        "Unvaccinated Pennsylvania",
+        "resident dies as US measles cases",
+        "surge"
+      ],
+      "truncated": false,
+      "requested_size": 13.5
+    },
+    {
+      "name": "tag",
+      "text": "AMERICAS · POLITICS",
+      "rect": [
+        763,
+        760,
+        865.89,
+        770.0
+      ],
+      "font_size": 8.5,
+      "face": "sansb",
+      "cell": "brief.15",
+      "cell_rect": [
+        759,
+        756,
+        988,
+        828
+      ]
+    },
+    {
+      "name": "brief.15.head",
+      "text": "Musk calls his record $446m midterm spending 'pretty foolish'",
+      "rect": [
+        759,
+        773,
+        971.69,
+        804.7
+      ],
+      "font_size": 13.5,
+      "face": "sansb",
+      "cell": "brief.15",
+      "cell_rect": [
+        759,
+        756,
+        988,
+        828
+      ],
+      "lines": [
+        "Musk calls his record $446m",
+        "midterm spending 'pretty foolish'"
+      ],
+      "truncated": false,
+      "requested_size": 13.5
+    },
+    {
+      "name": "tag",
+      "text": "AMERICAS · TECH",
+      "rect": [
+        763,
+        836,
+        847.44,
+        846.0
+      ],
+      "font_size": 8.5,
+      "face": "sansb",
+      "cell": "brief.16",
+      "cell_rect": [
+        759,
+        832,
+        988,
+        904
+      ]
+    },
+    {
+      "name": "brief.16.head",
+      "text": "Waymo pauses driverless taxis on US freeways after California incidents",
+      "rect": [
+        759,
+        849,
+        979.09,
+        896.9
+      ],
+      "font_size": 13.5,
+      "face": "sansb",
+      "cell": "brief.16",
+      "cell_rect": [
+        759,
+        832,
+        988,
+        904
+      ],
+      "lines": [
+        "Waymo pauses driverless taxis on",
+        "US freeways after California",
+        "incidents"
+      ],
+      "truncated": false,
+      "requested_size": 13.5
+    },
+    {
+      "name": "ticker.label",
+      "text": "ALSO TODAY",
+      "rect": [
+        30,
+        916,
+        106.36,
+        928.0
+      ],
+      "font_size": 10,
+      "face": "sansb",
+      "cell": "ticker",
+      "cell_rect": [
+        30,
+        912,
+        994,
+        992
+      ]
+    },
+    {
+      "name": "ticker.1",
+      "text": "IEA says the Iran war could permanently cut reliance on Hormuz",
+      "rect": [
+        39,
+        930.0,
+        309.31,
+        941.5
+      ],
+      "font_size": 9.5,
+      "face": "sans",
+      "cell": "ticker",
+      "cell_rect": [
+        30,
+        912,
+        994,
+        992
+      ],
+      "lines": [
+        "IEA says the Iran war could permanently cut reliance on Hormuz"
+      ],
+      "truncated": false,
+      "requested_size": 9.5
+    },
+    {
+      "name": "ticker.2",
+      "text": "Van Gogh sells for a record $190.4m after a row over its Nazi history",
+      "rect": [
+        39,
+        942.2,
+        326.55,
+        953.7
+      ],
+      "font_size": 9.5,
+      "face": "sans",
+      "cell": "ticker",
+      "cell_rect": [
+        30,
+        912,
+        994,
+        992
+      ],
+      "lines": [
+        "Van Gogh sells for a record $190.4m after a row over its Nazi history"
+      ],
+      "truncated": false,
+      "requested_size": 9.5
+    },
+    {
+      "name": "ticker.3",
+      "text": "Ronaldo outlines a Portugal retirement plan and a farewell game",
+      "rect": [
+        39,
+        954.4,
+        309.85,
+        965.9
+      ],
+      "font_size": 9.5,
+      "face": "sans",
+      "cell": "ticker",
+      "cell_rect": [
+        30,
+        912,
+        994,
+        992
+      ],
+      "lines": [
+        "Ronaldo outlines a Portugal retirement plan and a farewell game"
+      ],
+      "truncated": false,
+      "requested_size": 9.5
+    },
+    {
+      "name": "ticker.4",
+      "text": "Musk calls Jensen Huang irreplaceable as Nvidia shares slip",
+      "rect": [
+        39,
+        966.6,
+        293.98,
+        978.1
+      ],
+      "font_size": 9.5,
+      "face": "sans",
+      "cell": "ticker",
+      "cell_rect": [
+        30,
+        912,
+        994,
+        992
+      ],
+      "lines": [
+        "Musk calls Jensen Huang irreplaceable as Nvidia shares slip"
+      ],
+      "truncated": false,
+      "requested_size": 9.5
+    },
+    {
+      "name": "ticker.5",
+      "text": "Hegseth hails Maduro's capture, then flies to Colombia for drug talks",
+      "rect": [
+        39,
+        978.8,
+        326.44,
+        990.3
+      ],
+      "font_size": 9.5,
+      "face": "sans",
+      "cell": "ticker",
+      "cell_rect": [
+        30,
+        912,
+        994,
+        992
+      ],
+      "lines": [
+        "Hegseth hails Maduro's capture, then flies to Colombia for drug talks"
+      ],
+      "truncated": false,
+      "requested_size": 9.5
+    },
+    {
+      "name": "ticker.6",
+      "text": "Milei's plan to suspend Argentina's primaries clears a key hurdle",
+      "rect": [
+        537,
+        930.0,
+        806.18,
+        941.5
+      ],
+      "font_size": 9.5,
+      "face": "sans",
+      "cell": "ticker",
+      "cell_rect": [
+        30,
+        912,
+        994,
+        992
+      ],
+      "lines": [
+        "Milei's plan to suspend Argentina's primaries clears a key hurdle"
+      ],
+      "truncated": false,
+      "requested_size": 9.5
+    },
+    {
+      "name": "ticker.7",
+      "text": "Record numbers of African migrants reach Spain's Canary Islands",
+      "rect": [
+        537,
+        942.2,
+        814.4,
+        953.7
+      ],
+      "font_size": 9.5,
+      "face": "sans",
+      "cell": "ticker",
+      "cell_rect": [
+        30,
+        912,
+        994,
+        992
+      ],
+      "lines": [
+        "Record numbers of African migrants reach Spain's Canary Islands"
+      ],
+      "truncated": false,
+      "requested_size": 9.5
+    },
+    {
+      "name": "ticker.8",
+      "text": "Uganda landslide survivors seek justice at the UN",
+      "rect": [
+        537,
+        954.4,
+        746.06,
+        965.9
+      ],
+      "font_size": 9.5,
+      "face": "sans",
+      "cell": "ticker",
+      "cell_rect": [
+        30,
+        912,
+        994,
+        992
+      ],
+      "lines": [
+        "Uganda landslide survivors seek justice at the UN"
+      ],
+      "truncated": false,
+      "requested_size": 9.5
+    },
+    {
+      "name": "ticker.9",
+      "text": "Fela Kuti inducted into the Rock & Roll Hall of Fame",
+      "rect": [
+        537,
+        966.6,
+        755.57,
+        978.1
+      ],
+      "font_size": 9.5,
+      "face": "sans",
+      "cell": "ticker",
+      "cell_rect": [
+        30,
+        912,
+        994,
+        992
+      ],
+      "lines": [
+        "Fela Kuti inducted into the Rock & Roll Hall of Fame"
+      ],
+      "truncated": false,
+      "requested_size": 9.5
+    },
+    {
+      "name": "ticker.10",
+      "text": "Jeffries on track to be the first Black speaker of the House",
+      "rect": [
+        537,
+        978.8,
+        780.23,
+        990.3
+      ],
+      "font_size": 9.5,
+      "face": "sans",
+      "cell": "ticker",
+      "cell_rect": [
+        30,
+        912,
+        994,
+        992
+      ],
+      "lines": [
+        "Jeffries on track to be the first Black speaker of the House"
+      ],
+      "truncated": false,
+      "requested_size": 9.5
+    }
+  ],
+  "out_of_cell": [],
+  "outside_page": [],
+  "overlaps": [],
+  "truncations": [],
+  "shrunk": []
+}
