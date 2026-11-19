@@ -47,8 +47,9 @@ size.
 - `tools/render.py` — the renderer. Needs Pillow. It composes the page from the story
   lists at the top of the file, measures every string with `textlength`/`getbbox`, shrinks
   a font by one pixel at a time (to a floor per block) until the text fits its box, and
-  writes three files: `entry.png`, `preview-300.png` (the page at 300 px, for checking
-  that it still reads) and `layout-audit.json`.
+  writes `entry.png` beside two check artefacts it leaves out of the repository:
+  `preview-300.png` (the page at 300 px, for checking that it still reads) and
+  `layout-audit.json`.
 - `main.py` — the graded entrypoint, **Python standard library only**. It validates the
   committed `entry.png` by hand (signature, a 1024×1024 IHDR, every chunk's CRC32, an
   IEND marker with no trailing bytes, and a decompressible, correctly sized image stream)
@@ -56,7 +57,8 @@ size.
 
 `layout-audit.json` records all 69 text boxes with their rectangles, the story count, and
 any box that leaves its cell, any pair of boxes that collide, and any truncated or shrunk
-string. The current audit is clean: 0 out-of-cell, 0 overlaps, 0 truncations, 0 shrunk.
+string. It is written by the renderer and not committed. The audit for the committed
+artwork is clean: 0 out-of-cell, 0 overlaps, 0 truncations, 0 shrunk.
 
 ## Running it
 
@@ -77,9 +79,7 @@ python3 tools/render.py          # writes entry.png, preview-300.png, layout-aud
 | Path | What it is |
 | --- | --- |
 | `entry.png` | the artwork, 1024×1024, committed |
-| `preview-300.png` | the same page at 300 px, for legibility checks |
-| `layout-audit.json` | every text box, plus overflow and overlap counts |
-| `tools/render.py` | the Pillow renderer that produces the three files above |
+| `tools/render.py` | the Pillow renderer that produces the artwork and its check artefacts (not committed: `preview-300.png`, `layout-audit.json`) |
 | `main.py` | stdlib-only entrypoint that validates and delivers `entry.png` |
 | `SOURCES.md` | outlet, headline, URL and date for every story on the page |
 

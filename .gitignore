@@ -1,3 +1,5 @@
 __pycache__/
 *.pyc
 out/
+layout-audit.json
+preview-300.png
